@@ -16,5 +16,13 @@ button{background:#d63384;color:white;border:0;padding:14px 22px;border-radius:8
 <h2>Five Color Arts</h2>
 <p>Customized Gifts • Prints • Events • Photography</p>
 <button onclick="location.href='https://fivecolorartsgiftsmadurai.blogspot.com/p/products.html'">Open Products</button>
+  <script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./service-worker.js")
+      .catch(error => console.log(error));
+  });
+}
+</script>
 </body>
 </html>
