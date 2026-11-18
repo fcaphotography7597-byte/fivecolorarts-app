@@ -1,0 +1,9 @@
+{
+  "name": "Five Color Arts",
+  "short_name": "Five Color Arts",
+  "start_url": "https://fivecolorartsgiftsmadurai.blogspot.com/p/products.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
